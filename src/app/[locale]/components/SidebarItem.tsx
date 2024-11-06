@@ -63,7 +63,7 @@ export default function SidebarItem({
          ${
            active && !subMenu
              ? 'border-l-4 border-secondary from-indigo-200 to-indigo-100 text-secondary'
-             : 'text-gray-600 hover:bg-indigo-50'
+             : 'border-l-4 border-transparent text-gray-600 hover:bg-indigo-50'
          }
          ${!expanded && 'hidden sm:flex'}
      `}
